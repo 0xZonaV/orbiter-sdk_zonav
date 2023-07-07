@@ -16,7 +16,7 @@ export default {
     { file: pkg.module, format: 'es', sourcemap: true },
   ],
   // Indicate here external modules you don't wanna include in your bundle (i.e.: 'lodash')
-  external: ['ethers', 'web3', 'lodash'],
+  external: ['ethers', 'web3', 'lodash', 'zksync', 'zksync-web3'],
   watch: {
     include: 'src/**',
   },
